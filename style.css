@@ -1,1 +1,5 @@
 @import url(fonts/fonts.css);
+
+.hidden {
+    display: none;
+}

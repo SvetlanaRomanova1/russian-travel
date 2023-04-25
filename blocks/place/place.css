@@ -1,7 +1,33 @@
 .place {
     padding: 80px 0 0 0;
     display: grid;
-    grid-template-rows: 152px 1fr;
-    grid-template-columns: 460px 1fr;
     grid-gap: 48px 40px;
+    grid-auto-rows: auto;
+    max-width: 984px;
+    grid-template-columns: minmax(288px, 460px) minmax(288px, 484px);
+    margin: 0 auto;
+    grid-template-areas: "place__title place__webcyti"
+        "place__image place__paragraph"
+        "place__image place__paragraph";
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        margin: 0 24px;
+        padding: 72px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place {
+        grid-template-columns: 1fr;
+        padding: 50px 0 0 0;
+    }
+}
+
+
+.place__image {
+    width: 100%;
+    height: auto;
+    grid-area: place__image;
 }

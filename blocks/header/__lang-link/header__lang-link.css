@@ -6,3 +6,10 @@
     justify-content: center;
     position: relative;
 }
+
+@media screen and (max-width: 424px) {
+    .header__lang-link {
+        width: 22px;
+        height: 20px;
+    }
+}

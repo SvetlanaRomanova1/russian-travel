@@ -4,6 +4,19 @@
     align-items: end;
     max-width: 1184px;
     margin: 0 auto;
-    padding: 92px 0 24px 0;
-    height: 18px;
+    padding: 92px 24px 24px 24px;
+
+}
+
+@media screen and (max-width: 710px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding: 64px 16px 24px 16px;
+    }
 }

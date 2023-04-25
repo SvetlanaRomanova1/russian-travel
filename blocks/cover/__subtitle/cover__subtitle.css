@@ -7,10 +7,27 @@
     text-align: center;
     color: #FFFFFF;
     position: absolute;
-    top: 62%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 113%);
     width: 360px;
     margin: 0;
     z-index: 2;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        transform: translate(-50%, 87%);
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 264px;
+        position: absolute;
+        transform: translate(-49%, 37%);
+    }
 }

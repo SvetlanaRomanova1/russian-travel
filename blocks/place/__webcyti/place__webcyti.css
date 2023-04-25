@@ -2,4 +2,5 @@
     display: flex;
     flex-direction: column;
     align-self: end;
+    grid-area: place__webcyti;
 }

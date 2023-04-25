@@ -5,8 +5,24 @@
     font-size: 96px;
     line-height: 100px;
     color: #FFFFFF;
-    padding: 58px 0 32px 0;
+    padding: 56px 0 32px 0;
     max-width: 720px;
     text-align: center;
     margin: 0;
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .lead__title {
+        font-size: 60px;
+        line-height: 64px;
+        padding: 48px 0 32px 0;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        padding: 48px 0 16px 0;
+    }
 }

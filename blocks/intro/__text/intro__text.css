@@ -7,3 +7,15 @@
     color: #FFFFFF;
     margin: 40px 0 33px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        margin: 40px 24px 33px 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text {
+        margin: 40px 16px 33px 16px;
+    }
+}
