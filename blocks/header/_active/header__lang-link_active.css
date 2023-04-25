@@ -11,6 +11,5 @@
     .header__lang-link_active:before {
         width: 1.375rem;
         height: 0.125rem;
-        bottom: -4;
     }
 }
