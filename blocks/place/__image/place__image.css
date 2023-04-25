@@ -1,0 +1,14 @@
+.place__image {
+    width: 100%;
+    height: auto;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+@media screen and (max-width: 630px) {
+    .place__image {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin: 32px 0;
+    }
+}

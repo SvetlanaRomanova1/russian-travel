@@ -1,6 +1,6 @@
 .cover {
     position: relative;
     margin: 92px 0 0 0;
-    max-width: 1184px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }

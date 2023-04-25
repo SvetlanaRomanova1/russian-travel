@@ -5,7 +5,7 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    margin: 0
+    margin: 0 0 25px 0
 }
 
 @media screen and (max-width: 768px) {
@@ -15,8 +15,10 @@
 }
 
 
+
+
 @media screen and (max-width: 424px) {
-    .place__title {
+    .place__paragraph {
         font-size: 16px;
     }
 }

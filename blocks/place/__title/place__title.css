@@ -5,15 +5,20 @@
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
-    margin: 0;
+    margin: 0 0 48px 0;
     align-self: end;
-    grid-area: place__title;
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .place__title {
+        margin: 0 0 32px 0;
     }
 }
 
