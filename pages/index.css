@@ -22,6 +22,7 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /* Блок стиля css places */
 @import url(../blocks/places/places.css);
+@import url(fonts/fonts.css);
 /* Блок стиля css place*/
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
