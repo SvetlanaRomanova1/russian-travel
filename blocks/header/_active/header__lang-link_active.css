@@ -2,15 +2,15 @@
     content: '';
     bottom: -2px;
     position: absolute;
-    width: 30px;
-    height: 2px;
+    width: 1.875em;
+    height: 0.125em;
     background-color: #ffffff;
 }
 
 @media screen and (max-width: 424px) {
     .header__lang-link_active:before {
-        width: 22px;
-        height: 2px;
+        width: 1.375rem;
+        height: 0.125rem;
         bottom: -4;
     }
 }

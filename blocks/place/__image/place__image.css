@@ -5,10 +5,10 @@
     grid-row-end: 5;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 765px) {
     .place__image {
         grid-row-start: 3;
         grid-row-end: 4;
-        margin: 32px 0;
+        margin: 0 0 2rem 0
     }
 }

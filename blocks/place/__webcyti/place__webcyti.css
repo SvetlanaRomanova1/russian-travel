@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     align-self: end;
-    margin: 0 0 48px 0;
+    margin: 0 0 3rem 0;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 765px) {
     .place__webcyti {
-        margin: 0 0 32px 0;
+        margin: 0 0 2rem 0;
     }
 }

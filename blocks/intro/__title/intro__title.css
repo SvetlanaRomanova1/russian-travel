@@ -5,14 +5,14 @@
     font-size: 54px;
     line-height: 58px;
     color: #FFFFFF;
-    margin: 92px 0 0 0;
+    margin: 5.75rem 0 0 0;
 
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
     .intro__title {
-        margin: 88px 24px 0 24px;
-        max-width: 720px;
+        margin: 5.5rem 1.5rem 0 1.5rem;
+        max-width: 45rem;
         font-size: 54px;
         line-height: 58px;
     }
@@ -22,8 +22,8 @@
     .intro__title {
         font-size: 32px;
         line-height: 35px;
-        margin: 64px 16px 0 16px;
-        max-width: 288px;
+        margin: 4rem 1rem 0 1rem;
+        max-width: 18rem;
     }
 
 }

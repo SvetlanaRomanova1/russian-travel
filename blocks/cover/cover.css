@@ -1,6 +1,17 @@
 .cover {
     position: relative;
-    margin: 92px 0 0 0;
+    margin: 5.75rem 0 0 0;
     display: flex;
     justify-content: center;
+    cursor: pointer;
+}
+
+.cover:hover .cover__overlay {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+        margin: 4.125rem 0 0 0;
+    }
 }

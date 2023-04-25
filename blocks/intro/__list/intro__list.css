@@ -6,18 +6,18 @@
     color: #FFFFFF;
     list-style: none;
     padding: 0;
-    margin: 0 0 92px 0;
+    margin: 0 0 5.75rem 0;
 }
 
 @media screen and (max-width: 768px) {
     .intro__list {
-        margin: 33px 24px 88px 24px;
+        margin: 2.0625rem 1.5rem 5.5rem 1.5rem;
     }
 }
 
 
 @media screen and (max-width: 320px) {
     .intro__list {
-        margin: 34px 16px 64px 16px;
+        margin: 2.125rem 1rem 4rem 1rem;
     }
 }

@@ -5,8 +5,8 @@
     font-size: 96px;
     line-height: 100px;
     color: #FFFFFF;
-    padding: 56px 0 32px 0;
-    max-width: 720px;
+    padding: 3.5rem 0 2rem 0;
+    max-width: 45rem;
     text-align: center;
     margin: 0;
 }
@@ -15,7 +15,7 @@
     .lead__title {
         font-size: 60px;
         line-height: 64px;
-        padding: 48px 0 32px 0;
+        padding: 3rem 0 2rem 0;
     }
 }
 
@@ -23,6 +23,6 @@
     .lead__title {
         font-size: 40px;
         line-height: 44px;
-        padding: 48px 0 16px 0;
+        padding: 3rem 0 1rem 0;
     }
 }

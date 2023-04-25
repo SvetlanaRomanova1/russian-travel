@@ -5,17 +5,18 @@
     font-size: 16px;
     line-height: 163%;
     color: #FFFFFF;
-    margin: 40px 0 33px 0;
+    margin: 2.5rem 0 2.0625rem 0;
+    max-width: 43.125rem;
 }
 
 @media screen and (max-width: 768px) {
     .intro__text {
-        margin: 40px 24px 33px 24px;
+        margin: 2.5rem 1.5rem 2.0625rem 1.5rem;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro__text {
-        margin: 40px 16px 33px 16px;
+        margin: 2.5rem 1rem 2.0625rem 1rem;
     }
 }

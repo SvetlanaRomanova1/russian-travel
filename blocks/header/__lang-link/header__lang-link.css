@@ -1,15 +1,14 @@
 .header__lang-link {
-    width: 30px;
-    height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 1.875rem;
+    height: 1.75rem;
     position: relative;
+    align-self: center;
+    justify-self: end;
 }
 
 @media screen and (max-width: 424px) {
     .header__lang-link {
-        width: 22px;
-        height: 20px;
+        width: 1.375rem;
+        height: 1.25rem;;
     }
 }

@@ -7,7 +7,7 @@
     text-align: center;
     color: #FFFFFF;
     z-index: 2;
-    max-width: 560px;
+    max-width: 35rem;
     margin: 0 auto;
     position: absolute;
     top: 50%;
@@ -26,7 +26,7 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        max-width: 288px;
+        max-width: 18rem;
         transform: translate(-51%, -92%);
     }
 }

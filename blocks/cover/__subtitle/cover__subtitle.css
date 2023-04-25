@@ -10,7 +10,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, 113%);
-    width: 360px;
+    width: 22.5rem;
     margin: 0;
     z-index: 2;
 }
@@ -26,7 +26,7 @@
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
-        max-width: 264px;
+        max-width: 16.5rem;
         position: absolute;
         transform: translate(-49%, 37%);
     }
