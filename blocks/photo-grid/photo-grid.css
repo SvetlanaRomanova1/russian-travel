@@ -1,19 +1,22 @@
 .photo-grid {
     max-width: 74rem;
-    margin: 0 3rem 0 3rem;
+    margin: 0 3rem 0.75rem 3rem;
     grid-gap: 1rem;
     display: grid;
+    padding: 0;
+    list-style: none;
     grid-template-columns: repeat(auto-fit, minmax(17.75rem, 1fr));
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-        margin: 0 1.5rem 0 1.5rem;
+        margin: 0 1.5rem 0.9375rem 1.5rem;
     }
 }
 
 @media screen and (max-width: 425px) {
     .photo-grid {
-        margin: 0 1rem 0 1rem;
+        margin: 0 1rem 0.875rem 1rem;
+        grid-gap: 0.75rem;
     }
 }

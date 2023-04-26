@@ -4,3 +4,9 @@
     align-items: center;
     margin: 0 0 5.75rem 0;
 }
+
+@media screen and (max-width: 767px) {
+    .places {
+        margin: 0 0 4.125rem 0;
+    }
+}

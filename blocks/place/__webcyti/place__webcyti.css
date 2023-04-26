@@ -5,8 +5,8 @@
     margin: 0 0 3rem 0;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 767px) {
     .place__webcyti {
-        margin: 0 0 2rem 0;
+        margin: 0 1rem 2rem 1rem;
     }
 }

@@ -3,13 +3,27 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 26px;
     color: #FFFFFF;
     margin: 0 0 1.5625rem 0;
 }
 
-@media screen and (max-width: 800px) {
+.place__paragraph:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        margin: 0 1rem 1.5625rem 1rem;
+    }
+
+    .place__paragraph:last-child {
+        margin: 0 1rem 0 1rem;
     }
 }

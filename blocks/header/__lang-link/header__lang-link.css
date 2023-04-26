@@ -3,12 +3,20 @@
     line-height: 28px;
     color: #FFFFFF;
     text-decoration: none;
-    align-self: center;
+    place-self: self-end;
+    position: relative;
+    bottom: 0.25rem;
+    transition: opacity .3s ease-in;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 424px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
+        bottom: 0.375rem;
     }
 }

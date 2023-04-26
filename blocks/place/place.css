@@ -9,12 +9,15 @@
 @media screen and (max-width: 1024px) {
     .place {
         grid-gap: 0 2rem;
+        margin: 5rem 0 0 0;
+        grid-template-columns: minmax(18rem, 27.5rem) minmax(18rem, 28.5rem);
     }
 }
 
 @media screen and (max-width: 800px) {
     .place {
-        margin: 4.5rem 1.5rem 0 1.5rem;
+        grid-template-columns: minmax(18rem, 21.25rem) minmax(18rem, 22rem);
+        margin: 4.5625rem 1.5rem 0 1.5rem;
         grid-gap: 0 1.75rem;
     }
 }
@@ -22,12 +25,6 @@
 @media screen and (max-width: 765px) {
     .place {
         grid-template-columns: 1fr;
-    }
-}
-
-
-@media screen and (max-width: 425px) {
-    .place {
-        margin: 3.125rem 1rem 0 1rem;
+        margin: 3.125rem 0 0 0;
     }
 }

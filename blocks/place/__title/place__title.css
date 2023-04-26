@@ -9,11 +9,18 @@
     align-self: end;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 768px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        margin: 0 0 2rem 0;
+        margin: 0 0 3rem 0;
+        max-width: 20.625rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__title {
+        margin: 0 1rem 3rem 1rem;
     }
 }
 
@@ -21,5 +28,6 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
+        margin: 0 1rem 2rem 1rem;
     }
 }

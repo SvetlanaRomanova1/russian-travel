@@ -3,10 +3,6 @@
     display: flex;
     list-style: none;
     gap: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
     padding: 0;
     transition: opacity .3s ease-in;
     margin: 0;
@@ -16,6 +12,5 @@
     .footer__links {
         flex-direction: column;
         gap: 2rem;
-
     }
 }
