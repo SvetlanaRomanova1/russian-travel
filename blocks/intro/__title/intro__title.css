@@ -1,5 +1,5 @@
 .intro__title {
-    font-family: 'Inter Bold', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -13,8 +13,6 @@
     .intro__title {
         margin: 5.5rem 1.5rem 0 1.5rem;
         max-width: 45rem;
-        font-size: 54px;
-        line-height: 58px;
     }
 }
 

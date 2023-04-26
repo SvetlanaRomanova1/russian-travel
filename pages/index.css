@@ -5,7 +5,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/_active/header__lang-link_active.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 /* Блок стиля css lead */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -14,7 +14,7 @@
 @import url(../blocks/lead/__caption/lead__caption.css);
 /* Блок стиля css intro */
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__column/intro__column.css);
+@import url(../blocks/intro/__list-numbers/intro__list-numbers.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
@@ -33,9 +33,8 @@
 @import url(../blocks/place/__image/place__image.css);
 /* Блок стиля css cover*/
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 /* Блок стиля css footer*/
 @import url(../blocks/footer/footer.css);

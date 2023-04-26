@@ -1,5 +1,5 @@
 .cover__title {
-    font-family: 'Inter Bold', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -9,10 +9,6 @@
     z-index: 2;
     max-width: 35rem;
     margin: 0 auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-53%, -91%);
 }
 
 @media screen and (min-width: 460px) and (max-width: 767px) {
@@ -27,6 +23,5 @@
         font-size: 32px;
         line-height: 35px;
         max-width: 18rem;
-        transform: translate(-51%, -92%);
     }
 }

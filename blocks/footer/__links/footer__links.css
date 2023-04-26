@@ -1,8 +1,8 @@
 .footer__links {
-    font-family: 'Inter Light', sans-serif;
+    font-family: 'Inter', sans-serif;
     display: flex;
     list-style: none;
-    gap: 18px;
+    gap: 1.125rem;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
