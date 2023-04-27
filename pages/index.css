@@ -25,7 +25,7 @@
 @import url(../blocks/places/places.css);
 /* Блок стиля css place*/
 @import url(../blocks/place/place.css);
-@import url(../blocks/place/__paragraph/_myself/place__paragraph_myself.css);
+@import url(../blocks/place/__myself/place__myself.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);

@@ -1,5 +1,5 @@
 @media screen and (max-width: 320px) {
-    .place__paragraph_myself {
+    .place__myself {
         display: block;
     }
 }
