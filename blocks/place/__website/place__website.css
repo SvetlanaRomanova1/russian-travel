@@ -1,4 +1,4 @@
-.place__webcyti {
+.place__website {
     display: flex;
     flex-direction: column;
     align-self: end;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .place__webcyti {
+    .place__website {
         margin: 0 1rem 2rem 1rem;
     }
 }

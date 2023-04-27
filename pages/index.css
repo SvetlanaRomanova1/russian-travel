@@ -25,10 +25,11 @@
 @import url(../blocks/places/places.css);
 /* Блок стиля css place*/
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/__paragraph/_myself/place__paragraph_myself.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__webcyti/place__webcyti.css);
+@import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
 /* Блок стиля css cover*/
