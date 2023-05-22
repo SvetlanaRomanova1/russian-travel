@@ -4,14 +4,12 @@
     grid-gap: 1rem;
     display: grid;
     padding: 0;
-    list-style: none;
     grid-template-columns: repeat(auto-fit, minmax(17.75rem, 1fr));
-    grid-template-rows: 13.3125rem;
+    grid-template-rows: auto;
 }
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        grid-template-rows: 14.0625rem;
         grid-gap: 0.875rem;
     }
 }
@@ -19,7 +17,6 @@
 @media screen and (max-width: 768px) {
     .photo-grid {
         margin: 0 1.5rem 0.9375rem 1.5rem;
-        grid-template-rows: 16.5rem;
         grid-gap: 1rem;
     }
 }
@@ -28,6 +25,5 @@
     .photo-grid {
         margin: 0 1rem 0.875rem 1rem;
         grid-gap: 0.75rem;
-        grid-template-rows: 13.5rem;
     }
 }
